@@ -1,0 +1,14 @@
+{
+    "spec_dir": "build/tests",
+    "spec_files": [
+        "**/models/userSpec.js",
+        "**/models/productSpec.js",
+        "**/models/orderSpec.js",
+        "**/*[sS]pec.js"
+    ],
+    "helpers": [
+        "helpers/**/*.js"
+    ],
+    "stopSpecOnExpectationFailure": false,
+    "random": false
+}
